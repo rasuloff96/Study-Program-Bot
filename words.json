@@ -1,45 +1,22 @@
-{
-    "words": [
-      {
-        "kor": "사랑",
-        "eng": "love"
-      },
-      {
-        "kor": "행복",
-        "eng": "happiness"
-      },
-      {
-        "kor": "친구",
-        "eng": "friend"
-      },
-      {
-        "kor": "가족",
-        "eng": "family"
-      },
-      {
-        "kor": "학교",
-        "eng": "school"
-      },
-      {
-        "kor": "컴퓨터",
-        "eng": "computer"
-      },
-      {
-        "kor": "음악",
-        "eng": "music"
-      },
-      {
-        "kor": "여행",
-        "eng": "travel"
-      },
-      {
-        "kor": "사람",
-        "eng": "person"
-      },
-      {
-        "kor": "날씨",
-        "eng": "weather"
-      }
-    ]
-  }
-  
+[
+  {"word": "안녕하세요", "translation": "Salom", "level": "Beginner"},
+  {"word": "사랑", "translation": "Sevgi", "level": "Beginner"},
+  {"word": "학교", "translation": "Maktab", "level": "Beginner"},
+  {"word": "친구", "translation": "Do'st", "level": "Beginner"},
+  {"word": "집", "translation": "Uy", "level": "Beginner"},
+  {"word": "음악", "translation": "Musiqa", "level": "Intermediate"},
+  {"word": "여행", "translation": "Sayohat", "level": "Intermediate"},
+  {"word": "영화", "translation": "Film", "level": "Intermediate"},
+  {"word": "커피", "translation": "Kofe", "level": "Intermediate"},
+  {"word": "언어", "translation": "Til", "level": "Intermediate"},
+  {"word": "기술", "translation": "Texnologiya", "level": "Advanced"},
+  {"word": "과학", "translation": "Fan", "level": "Advanced"},
+  {"word": "인생", "translation": "Hayot", "level": "Advanced"},
+  {"word": "컴퓨터", "translation": "Kompyuter", "level": "Advanced"},
+  {"word": "운동", "translation": "Sport", "level": "Advanced"},
+  {"word": "책", "translation": "Kitob", "level": "Beginner"},
+  {"word": "커뮤니케이션", "translation": "Aloqa", "level": "Intermediate"},
+  {"word": "교육", "translation": "Ta'lim", "level": "Advanced"},
+  {"word": "음식", "translation": "Taom", "level": "Beginner"},
+  {"word": "문화", "translation": "Madaniyat", "level": "Advanced"}
+]
