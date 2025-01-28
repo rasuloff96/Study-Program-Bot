@@ -4,6 +4,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils import executor
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Tokenni o‘qish
 BOT_TOKEN = "8098083094:AAF_0DoWGtJkdDj6EPbHx2kGpmj_g7FgETg"
@@ -18,7 +22,7 @@ with open("words.json", "r") as file:
 
 # Boshlang‘ich klaviatura
 start_keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
-start_keyboard.add(KeyboardButton("New word"))
+start_keyboard.add(KeyboardButton("Yangi so‘z"))
 
 # /start komandasi
 @dp.message_handler(commands=["start"])
